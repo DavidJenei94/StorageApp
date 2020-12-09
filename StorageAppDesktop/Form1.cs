@@ -20,16 +20,9 @@ namespace StorageAppDesktop
             dbs = new DBService();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            DBService dbs = new DBService();
-            foreach (var item in dbs.getRooms())
-            {
-                MessageBox.Show(item.Name);
-            }
-            
-        }
-
+        //
+        //Adott szoba képek kiválasztás, azokhoz tartozó eszközök megjelenítése
+        //
         private void LivingRoomImageBox_Click(object sender, EventArgs e)
         {
             selectPictureBox(selectedPictureBox, (PictureBox)sender);
@@ -85,6 +78,9 @@ namespace StorageAppDesktop
             ItemsDataGridView.Visible = true;
         }
 
+        //
+        //Adott kép kijelölése
+        //
         public void selectPictureBox(PictureBox oldPictureBox, PictureBox newPictureBox)
         {
             if (oldPictureBox == newPictureBox)
@@ -107,6 +103,9 @@ namespace StorageAppDesktop
             selectedPictureBox = newPictureBox;
         }
 
+        //
+        //Adott eszköz kijelölése szerkesztéshez
+        //
         private void ItemStorage_Clicked(object sender, EventArgs e)
         {
             using (var efc = new EFContext())
@@ -135,7 +134,6 @@ namespace StorageAppDesktop
         {
             using var editStorage = new EditDeleteStorage();
             editStorage.ShowDialog();
-            
         }
 
         private void AddItemButton_Click(object sender, EventArgs e)

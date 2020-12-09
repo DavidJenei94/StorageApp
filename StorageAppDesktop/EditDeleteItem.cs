@@ -25,7 +25,9 @@ namespace StorageAppDesktop
 
             RoomComboBox.DataSource = bindingSource1.DataSource;
 
-
+            //
+            //Init Edit ablak a kijelölt eszköz adataival
+            //
             item = selectedItem;
 
             nameTextBox.Text = item.Name;

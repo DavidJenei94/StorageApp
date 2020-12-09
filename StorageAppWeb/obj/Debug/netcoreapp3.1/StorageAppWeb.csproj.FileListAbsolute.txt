@@ -11,7 +11,6 @@ C:\Users\Acer\source\repos\StorageApp\StorageAppWeb\obj\Debug\netcoreapp3.1\Stor
 C:\Users\Acer\source\repos\StorageApp\StorageAppWeb\obj\Debug\netcoreapp3.1\StorageAppWeb.TagHelpers.output.cache
 C:\Users\Acer\source\repos\StorageApp\StorageAppWeb\obj\Debug\netcoreapp3.1\StorageAppWeb.RazorCoreGenerate.cache
 C:\Users\Acer\source\repos\StorageApp\StorageAppWeb\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\Acer\source\repos\StorageApp\StorageAppWeb\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\Acer\source\repos\StorageApp\StorageAppWeb\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\Acer\source\repos\StorageApp\StorageAppWeb\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\Acer\source\repos\StorageApp\StorageAppWeb\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -169,8 +168,4 @@ C:\Users\Acer\source\repos\StorageApp\StorageAppWeb\bin\Debug\netcoreapp3.1\ru\M
 C:\Users\Acer\source\repos\StorageApp\StorageAppWeb\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Acer\source\repos\StorageApp\StorageAppWeb\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Acer\source\repos\StorageApp\StorageAppWeb\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Acer\source\repos\StorageApp\StorageAppWeb\obj\Debug\netcoreapp3.1\Razor\Views\Items\Create.cshtml.g.cs
-C:\Users\Acer\source\repos\StorageApp\StorageAppWeb\obj\Debug\netcoreapp3.1\Razor\Views\Items\Delete.cshtml.g.cs
-C:\Users\Acer\source\repos\StorageApp\StorageAppWeb\obj\Debug\netcoreapp3.1\Razor\Views\Items\Details.cshtml.g.cs
-C:\Users\Acer\source\repos\StorageApp\StorageAppWeb\obj\Debug\netcoreapp3.1\Razor\Views\Items\Edit.cshtml.g.cs
 C:\Users\Acer\source\repos\StorageApp\StorageAppWeb\obj\Debug\netcoreapp3.1\Razor\Views\Items\Index.cshtml.g.cs
