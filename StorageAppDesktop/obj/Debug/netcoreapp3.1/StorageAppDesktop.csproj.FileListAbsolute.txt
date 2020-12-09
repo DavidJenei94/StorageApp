@@ -5,7 +5,6 @@ C:\Users\Acer\source\repos\StorageApp\StorageAppDesktop\bin\Debug\netcoreapp3.1\
 C:\Users\Acer\source\repos\StorageApp\StorageAppDesktop\bin\Debug\netcoreapp3.1\StorageAppDesktop.dll
 C:\Users\Acer\source\repos\StorageApp\StorageAppDesktop\bin\Debug\netcoreapp3.1\StorageAppDesktop.pdb
 C:\Users\Acer\source\repos\StorageApp\StorageAppDesktop\obj\Debug\netcoreapp3.1\StorageAppDesktop.csprojAssemblyReference.cache
-C:\Users\Acer\source\repos\StorageApp\StorageAppDesktop\obj\Debug\netcoreapp3.1\StorageAppDesktop.Form1.resources
 C:\Users\Acer\source\repos\StorageApp\StorageAppDesktop\obj\Debug\netcoreapp3.1\StorageAppDesktop.csproj.GenerateResource.cache
 C:\Users\Acer\source\repos\StorageApp\StorageAppDesktop\obj\Debug\netcoreapp3.1\StorageAppDesktop.AssemblyInfoInputs.cache
 C:\Users\Acer\source\repos\StorageApp\StorageAppDesktop\obj\Debug\netcoreapp3.1\StorageAppDesktop.AssemblyInfo.cs
@@ -60,5 +59,10 @@ C:\Users\Acer\source\repos\StorageApp\StorageAppDesktop\bin\Debug\netcoreapp3.1\
 C:\Users\Acer\source\repos\StorageApp\StorageAppDesktop\bin\Debug\netcoreapp3.1\StorageAppWeb.dll
 C:\Users\Acer\source\repos\StorageApp\StorageAppDesktop\bin\Debug\netcoreapp3.1\StorageAppWeb.pdb
 C:\Users\Acer\source\repos\StorageApp\StorageAppDesktop\obj\Debug\netcoreapp3.1\StorageAppDesktop.csproj.CopyComplete
-C:\Users\Acer\source\repos\StorageApp\StorageAppDesktop\bin\Debug\netcoreapp3.1\DB\StorageApp.db
 C:\Users\Acer\source\repos\StorageApp\StorageAppDesktop\obj\Debug\netcoreapp3.1\StorageAppDesktop.Properties.Resources.resources
+C:\Users\Acer\source\repos\StorageApp\StorageAppDesktop\obj\Debug\netcoreapp3.1\StorageAppDesktop.MainWindow.resources
+C:\Users\Acer\source\repos\StorageApp\StorageAppDesktop\bin\Debug\netcoreapp3.1\DB\StorageApp.db
+C:\Users\Acer\source\repos\StorageApp\StorageAppDesktop\obj\Debug\netcoreapp3.1\StorageAppDesktop.AddStorage.resources
+C:\Users\Acer\source\repos\StorageApp\StorageAppDesktop\obj\Debug\netcoreapp3.1\StorageAppDesktop.EditDeleteStorage.resources
+C:\Users\Acer\source\repos\StorageApp\StorageAppDesktop\obj\Debug\netcoreapp3.1\StorageAppDesktop.AddItem.resources
+C:\Users\Acer\source\repos\StorageApp\StorageAppDesktop\obj\Debug\netcoreapp3.1\StorageAppDesktop.EditDeleteItem.resources

@@ -24,7 +24,7 @@ namespace StorageAppWeb
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            //services.AddDbContext<EFContext>();
+            services.AddDbContext<EFContext>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -44,11 +44,11 @@ namespace StorageAppWeb
 
             app.UseAuthorization();
 
-            //app.UseCors(builder => builder
-            //    .AllowAnyHeader()
-            //    .AllowAnyMethod()
-            //    .AllowAnyOrigin()
-            //);
+            app.UseCors(builder => builder
+                .AllowAnyHeader()
+                .AllowAnyMethod()
+                .AllowAnyOrigin()
+            );
 
             app.UseEndpoints(endpoints =>
             {

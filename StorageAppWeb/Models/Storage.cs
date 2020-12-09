@@ -5,6 +5,16 @@ namespace StorageAppWeb.Models
 {
     public class Storage
     {
+        public Storage()
+        {
+
+        }
+        public Storage(string name, int roomid)
+        {
+            Name = name;
+            RoomId = roomid;
+        }
+
         [Key]
         public int Id { get; set; }
         [Required]

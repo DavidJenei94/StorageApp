@@ -8,7 +8,7 @@ using StorageAppWeb.Context;
 namespace StorageAppWeb.Migrations
 {
     [DbContext(typeof(EFContext))]
-    [Migration("20201209082046_InitialMigration")]
+    [Migration("20201209120438_InitialMigration")]
     partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
