@@ -111,8 +111,16 @@ namespace StorageAppDesktop
         {
             using (var efc = new EFContext())
             {
-                var itemId = (int)ItemsDataGridView.Rows[ItemsDataGridView.SelectedCells[0].RowIndex].Cells[3].Value;
-                selectedItem = efc.Items.First(c => c.Id == itemId);
+                try
+                {
+                    var itemId = (int)ItemsDataGridView.Rows[ItemsDataGridView.SelectedCells[0].RowIndex].Cells[3].Value;
+                    selectedItem = efc.Items.First(c => c.Id == itemId);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("No item in Storage");
+                }
+
 
             }
         }
