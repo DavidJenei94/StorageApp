@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using StorageAppWeb.Context;
 
 namespace StorageAppWeb
 {
@@ -23,6 +24,7 @@ namespace StorageAppWeb
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            //services.AddDbContext<EFContext>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -41,6 +43,12 @@ namespace StorageAppWeb
             app.UseRouting();
 
             app.UseAuthorization();
+
+            //app.UseCors(builder => builder
+            //    .AllowAnyHeader()
+            //    .AllowAnyMethod()
+            //    .AllowAnyOrigin()
+            //);
 
             app.UseEndpoints(endpoints =>
             {
